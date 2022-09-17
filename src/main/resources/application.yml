@@ -13,7 +13,7 @@ server:
 eureka:
    client:
       service-url:
-         defaultZone: http://localhost:8761/eureka
+         defaultZone: http://ms-eureka-user:R3JhdmlkYSBvZGlvIHBvcnR0aXRvciBwb3RlbnRpIHByZXRpdW0gdWxsYW1jb3JwZXIgc3VzY2lwaXQgcXVpc3F1ZSBwaGFyZXRyYQ==@localhost:8761/eureka
    instance:
       instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}}
 
