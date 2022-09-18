@@ -33,3 +33,7 @@ build/
 .vscode/
 
 .mvn/
+
+logs/
+
+.gitignore.bak
